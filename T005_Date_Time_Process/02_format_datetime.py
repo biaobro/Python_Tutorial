@@ -21,5 +21,5 @@ def format_datetime(datetime_obj, format_string="%Y-%m-%d %H:%M:%S"):
 
 # 示例
 now = datetime.datetime.now()
-formatted_datetime = format_datetime(now)
+formatted_datetime = format_datetime(now, "%Y%m%d%H%M%S")
 print(f"格式化后的日期时间: {formatted_datetime}")  # 例如: 2023-10-27 10:30:45
